@@ -1,5 +1,5 @@
-import { start } from "/logic/actions.js";
-import reducer from "/logic/reducer.js";
+import { start } from "./actions.js";
+import reducer from "./reducer.js";
 
 const createStore = reducer => {
   let state = {};

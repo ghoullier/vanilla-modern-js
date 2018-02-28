@@ -16,10 +16,7 @@ const extTypeMap = {
   ".css": "text/css"
 };
 
-const server = http2.createSecureServer({
-  key: fs.readFileSync("certs/localhost-privkey.pem"),
-  cert: fs.readFileSync("certs/localhost-cert.pem")
-});
+const server = http2.createServer();
 
 server.on("error", err => console.error(err));
 server.on("socketError", err => console.error(err));

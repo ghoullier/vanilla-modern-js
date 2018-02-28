@@ -1,4 +1,4 @@
-import { forEach, find } from "/utils/utils.js";
+import { forEach, find } from "../utils/utils.js";
 
 function updateAttr(target, name, newAttr, oldAttr) {
   if (!newAttr) {

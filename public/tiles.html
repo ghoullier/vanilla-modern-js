@@ -104,15 +104,15 @@ window.docs.Tiles = document.currentScript.ownerDocument;
 </script>
 
 <script type="module">
-import { range } from "/utils/utils.js";
+import { range } from "./utils/utils.js";
 
-import store from "/logic/store.js";
-import { move } from "/logic/actions.js";
+import store from "./logic/store.js";
+import { move } from "./logic/actions.js";
 
-import { update } from "/render/render.js";
-import { dom } from "/render/parser.js";
+import { update } from "./render/render.js";
+import { dom } from "./render/parser.js";
 
-import { size } from "/game/conf.js";
+import { size } from "./game/conf.js";
 
 class Tiles extends HTMLElement {
   constructor() {

@@ -1,4 +1,4 @@
-import { chooseRandomTile } from "/game/add.js";
+import { chooseRandomTile } from "../game/add.js";
 
 export const ADD_TILE = "ADD_TILE";
 export function addTile(board) {

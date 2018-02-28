@@ -1,7 +1,7 @@
-import { fourProbability } from "/game/conf.js";
-import { createTile } from "/game/tile.js";
+import { fourProbability } from "./conf.js";
+import { createTile } from "./tile.js";
 
-import { flatten } from "/utils/utils.js";
+import { flatten } from "../utils/utils.js";
 
 export function chooseRandomTile(board) {
   const emptyCells = flatten(

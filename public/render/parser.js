@@ -1,4 +1,4 @@
-import { map, reduce } from "/utils/utils.js";
+import { map, reduce } from "../utils/utils.js";
 
 const domParser = new DOMParser();
 

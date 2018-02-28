@@ -1,7 +1,7 @@
-import { range } from "/utils/utils.js";
+import { range } from "../utils/utils.js";
 
-import { size } from "/game/conf.js";
-import { createTile } from "/game/tile.js";
+import { size } from "./conf.js";
+import { createTile } from "./tile.js";
 
 export function init() {
   const dimension = range(size);
